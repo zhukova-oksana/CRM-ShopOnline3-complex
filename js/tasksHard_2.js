@@ -18,6 +18,9 @@ if ((income2 > 0) && (income2 <= 15000)) {
       const difference2 = income2 - 50000;
       tax = tax + (difference2 * 30 / 100);
     }
+    else {
+      console.log('Вы ввели некорректные данные.')
+    }
   }
 }
 
